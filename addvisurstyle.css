@@ -1,0 +1,117 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ .body{
+     background-color: #282828;
+ }
+
+/* Navigation Bar CSS */
+
+.navbar{
+    padding: 0.8rem;
+    background-color: #484848;
+}
+
+.navbar-logo{
+    height: 150px;
+}
+
+.navbar-toggler img{
+    height: 100px;
+    width: 100px;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+.navbar-nav li{
+    padding-right: 30px;
+    padding-left: 40px;
+}
+
+.navbar-nav li a {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.navbar-nav li a:hover{
+    color: #FF7D2D;
+}
+
+/* Main Title CSS */
+
+.title{
+    background-color: #282828;
+}
+.title h1{
+    font-size: 180px;
+    padding: 40px;
+    color: #FF7D2D;
+}
+
+/* About Us CSS */
+
+.box{
+    background-color: #484848;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.about-us h3{
+    color: white;
+    font-size: 100px;
+    padding-bottom: 30px;
+}
+
+.about-us p{
+    font-size: 40px;
+    color: white;
+}
+
+.about-us h4{
+    font-size: 80px;
+    padding: 30px 0;
+    color: #FF7D2D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Reviews CSS */
+
+.reviews h3{
+    color: #FF7D2D;
+    font-size: 100px;
+    padding: 30px 50px;
+}
+
+.stars img{
+    height: 110px;
+    width: 140px;
+}
+
+.reviewlist ul{
+    color: white;
+    list-style-image: url('Images/Ellipse\ 4.png');
+    font-size: 40px;
+    padding: 80px 130px;
+}
+
+.reviewlist p{
+    color: #FF7D2D;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+}
+
+.reviewlist li{
+    padding: 40px;
+}
+
+  
